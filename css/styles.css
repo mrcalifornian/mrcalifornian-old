@@ -1,0 +1,124 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #190d36;
+}
+ 
+.header-s {
+    background-color: #190d36;
+}
+.myname {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.myname:hover {
+    text-decoration: none;
+    color:#fff ;
+}
+
+li {
+    font-size: 1.2rem;
+    color: #335;
+    font-family: sans-serif;
+    float: right;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+li:hover {
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+
+/* Section */
+
+#main-content {
+    background-color: #190d36;
+    height: 600px;
+    padding: 0.5px;
+}
+
+#main-content h3 {
+    color: white;
+    font-size: 350%;
+    padding: 7% 50%;
+}
+
+.bg-image {
+    text-align: center;
+    height: 90%;
+    background-image: url("../images/background-img.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin: 2% 4%;
+    opacity: 15%;
+    border-radius: 2%;
+}
+
+/* Contact */
+
+#contact {
+    background-color: #190d36;
+    padding: 3% 7%;
+    color: #fff;
+}
+
+#contact label {
+    display: block;    
+    padding: 2% 10%;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#contact .contact-item,
+#contact textarea {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+
+.submit-btn {
+    margin: 2% 4%;    
+    width: 20%;
+    margin-left: 0 ;
+    background-color: #FFF;
+    color: #333;
+    font-size: 2em;
+}
+
+.submit-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.sm-icon {
+    color: white;
+    padding: 2%;
+}
+
+.sm-icon:hover {
+    color: white;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    background-color: #190d36;
+    color: #fff;
+    padding: 4px;
+}
+
+#footer h2{
+    font-size: 1rem;
+    padding: 2%;
+}
