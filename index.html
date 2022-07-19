@@ -10,172 +10,285 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-
-    <title>Nodirbek Tojiboev</title>
-    <link
-      rel="icon"
-      href="images/favicon.jpg"
-    />
-
+    <title>
+      Nodirbek Tojiboev
+    </title>
     <link
       rel="stylesheet"
-      href="css/styles.css"
+      href="./assets/css/style.css"
     />
 
-    <!-- Bootstrap -->
+    <!--
+    - google font link
+  -->
     <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
     />
-
-    <!-- JavaScript,jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://kit.fontawesome.com/607b993b75.js"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body>
-    <!-- Header -->
-    <header class="header-s">
-      <nav
-        class="navbar navbar-expand-lg navbar-dark"
-      >
-        <div class="container">
-          <h1 id="name">
-            <a href="#" class="myname"
-              ><strong>Nodirbek</strong>
-              Tojiboev</a
-            >
-          </h1>
+  <body class="dark-theme">
+    <!--
+    - #HEADER
+  -->
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span
-              class="navbar-toggler-icon"
-            ></span>
-          </button>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="#">
+            <h1 class="logo-name">MrCalifornian</h6>
+          </a>
 
-          <div
-            class="collapse navbar-collapse"
-            id="navbarNav"
-          >
-            <ul
-              class="navbar-nav ml-auto"
+          <div class="btn-group">
+            <button
+              class="nav-menu-btn"
             >
-              <li class="nav-item">
+              <ion-icon
+                name="menu-outline"
+              ></ion-icon>
+            </button>
+          </div>
+
+          <div class="flex-wrapper">
+            <ul class="desktop-nav">
+              <li>
                 <a
-                  class="nav-link text-light"
-                  href="/"
+                  href="#"
+                  class="nav-link"
                   >Home</a
                 >
               </li>
-              <li class="nav-item">
+
+              <li>
                 <a
-                  class="nav-link text-light"
-                  href="/about"
-                  >About</a
+                  href="#"
+                  class="nav-link"
+                  >About Me</a
                 >
               </li>
-              <li class="nav-item">
+
+              <li>
                 <a
-                  class="nav-link text-light"
-                  href="/projects"
-                  >Projects</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-light"
-                  href="/experience"
-                  >Experience</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-light"
-                  href="/contact"
+                  href="#"
+                  class="nav-link"
                   >Contact</a
                 >
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+
+          <div class="mobile-nav">
+            <button
+              class="nav-close-btn"
+            >
+              <ion-icon
+                name="close-outline"
+              ></ion-icon>
+            </button>
+
+            <div class="wrapper">
+              <p class="h3 nav-title">
+                Main Menu
+              </p>
+
+              <ul>
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    >About Me</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="h3 nav-title">
+                Topics
+              </p>
+
+              <ul>
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    >Database</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    >Accessibility</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    >Web Performance</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <section id="main-content">
-      <div class="bg-image">
-        <h3>
-          Welcome to my personal
-          webpage!
-        </h3>
+    <main>
+      <!--
+      - #HERO SECTION
+    -->
+
+      <div class="hero">
+        <div class="container">
+          <div class="left">
+            <h1 class="h1">
+              Hi,
+              <b>Nodir&nbsp;</b> here.
+              <br />Mobile Developer
+            </h1>
+
+            <!-- <p class="h3">
+              Specialized in
+              <abbr
+                title="Accessibility"
+                >a11y</abbr
+              >
+              and Core Web Vitals
+            </p> -->
+
+            <div class="btn-group">
+              <a
+                href="#"
+                class="btn btn-primary"
+                >Contact Me</a
+              >
+              <a
+                href="#"
+                class="btn btn-secondary"
+                >About Me</a
+              >
+            </div>
+            <div id="sm-icons">
+              <a
+              class="sm-icon linkedin"
+              href="http://linkedin.com/in/nodirbek-tojiboev"
+              ><i
+                class="fab fa-linkedin fa-2x"
+              ></i
+            ></a>
+            <a
+              class="sm-icon telegram"
+              href="http://t.me/nodirbek_tojiboyev"
+              ><i
+                class="fab fa-telegram fa-2x"
+              ></i
+            ></a>
+              <a
+              class="sm-icon instagram"
+              href="http://instagram.com/mr_californian"
+              ><i
+                class="fab fa-instagram fa-2x"
+              ></i
+            ></a>
+              <a
+              class="sm-icon twitter"
+              href="http://twitter.com/mr_californian"
+              ><i
+                class="fab fa-twitter fa-2x"
+              ></i
+            ></a>
+            <a
+              class="sm-icon github"
+              href="http://github.com/nodirbektojiboev"
+              ><i
+                class="fab fa-github fa-2x"
+              ></i
+            ></a>
+            </div>
+          </div>
+
+          <div class="right">
+            <div
+              class="pattern-bg"
+            ></div>
+            <div class="img-box">
+              <img
+                src="./assets/images/hero.png"
+                alt="Julia Walker"
+                class="hero-img"
+              />
+              <div
+                class="shape shape-1"
+              ></div>
+              <div
+                class="shape shape-2"
+              ></div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </main>
 
-    <section id="about"></section>
+    <!--
+    - #FOOTER
+  -->
 
-    <section id="projects"></section>
+    <footer>
+      <p class="copyright">
+        &copy; Copyright 2022
+        <a href="#"></a>
+      </p>
+    </footer>
 
-    <section id="experience"></section>
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
 
-    <div id="footer">
-      <a
-        class="sm-icon instagram"
-        href="http://instagram.com/mr_californian"
-        ><i
-          class="fab fa-instagram fa-2x"
-        ></i
-      ></a>
-      <a
-        class="sm-icon linkedin"
-        href="http://linkedin.com/in/nodirbek-tojiboev-572835203"
-        ><i
-          class="fab fa-linkedin fa-2x"
-        ></i
-      ></a>
-      <a
-        class="sm-icon telegram"
-        href="http://t.me/tnodirbek"
-        ><i
-          class="fab fa-telegram fa-2x"
-        ></i
-      ></a>
-      <a
-        class="sm-icon github"
-        href="http://github.com/nodir-me"
-        ><i
-          class="fab fa-github fa-2x"
-        ></i
-      ></a>
-      <h2>
-        &copy;2021 Nodirbek Tojiboev
-      </h2>
-    </div>
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+    src="https://kit.fontawesome.com/607b993b75.js"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>
