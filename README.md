@@ -1,2 +1,2 @@
 # mrcalifornian
-Just a testing area for crazy ideas
+area for ideas
